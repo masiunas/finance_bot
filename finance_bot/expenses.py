@@ -1,5 +1,8 @@
+# === Standard library imports ===
 import datetime
 from typing import List, NamedTuple, Optional
+
+# === Local application imports ==
 import db
 from categories import Categories
 
