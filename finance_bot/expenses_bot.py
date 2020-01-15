@@ -1,10 +1,13 @@
+# === Standard library imports ===
 import logging
 
+# === Third party imports ========
 import telebot
 
-from tokens import api
+# === Local application imports ==
+from settings import api_token
 
-bot = telebot.TeleBot(api)
+bot = telebot.TeleBot(api_token)
 
 
 @bot.message_handler(commands=['help'])
